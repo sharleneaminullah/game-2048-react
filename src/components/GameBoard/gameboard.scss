@@ -1,0 +1,31 @@
+.details-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+  }
+
+.resetButton {
+  background-color: #AFDCEC;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 7px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  &:hover {
+    background-color: #CCFB5D;
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+  .board {
+    order: 1;
+    width: 440px;
+    height: 440px;
+    padding: 5px;
+    background-color: #00BFFF;
+    border-radius: 7px;
+    outline: none;
+    position: relative;
+  }

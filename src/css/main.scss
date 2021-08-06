@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Clear Sans";
+  src: url("../../src/clear-sans.ttf") format("truetype");
+}
+
+@media screen and (max-device-width: 480px) {
+  body {
+    width: 100vh;
+    height: 100vh;
+    overflow: auto;     
+  }
+}
+
+body {
+  display: flex;
+  background-color: #FFFFFF;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-family: "Clear Sans", sans-serif;
+  font-size: 21px;
+}
+
+.board {
+  order: 1;
+  width: 440px;
+  height: 440px;
+  padding: 5px;
+  background-color: #00BFFF;
+  border-radius: 7px;
+  outline: none;
+  position: relative;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.8);   
+}
+
+.board .cell {
+  user-select: none;
+  cursor: default;
+}
+
